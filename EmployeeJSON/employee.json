@@ -1,0 +1,4 @@
+{"empid":1, "empname":"Siya", "dept":"IT", "address":{"city":"Pune","state":"Maharashtra"}, "salary":150000}
+{"empid":2, "empname":"Swayam", "dept":"HR", "address":{"city":"Bangalore", "state":"Karnataka"}, "salary":130000}
+{"empid":3, "empname":"Jeet", "dept":"IT", "address":{"city":"Mumbai","state":"Maharashtra"}, "salary":170000}
+{"empid":4, "empname":"Priya", "dept":"HR", "address":{"city":"Chennai", "state":"Tamilnadu"}, "salary":145000}
