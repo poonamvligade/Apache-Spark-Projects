@@ -1,4 +1,4 @@
-#How Apache Spark can give wings to airline analytics?
+# How Apache Spark can give wings to airline analytics?
 
 The global airline industry continues to grow rapidly, but consistent and robust profitability is yet to be seen. According to the International Air Transport Association (IATA), the industry has doubled its revenue over the past decade, from US$369 billion in 2005 to an expected $727 billion in 2015.
 
@@ -6,9 +6,9 @@ In the commercial aviation sector, every player in the value chain — airports,
 
 All these players individually generate extremely high volumes of data due to higher churn of flight transactions. Identifying and capturing the demand is the key here which provides much greater opportunity for airlines to differentiate themselves. Hence, Aviation industries can utilize big data insights to boost up their sales and improve profit margin.
 
-####Big data is a term for collection of datasets so large and complex that its computing cant be handled by traditional data processing systems or on-hand DBMS tools.
+#### Big data is a term for collection of datasets so large and complex that its computing cant be handled by traditional data processing systems or on-hand DBMS tools.
 
-####Apache Spark is an open source, distributed cluster computing framework specifically designed for interactive queries and iterative algorithms.
+#### Apache Spark is an open source, distributed cluster computing framework specifically designed for interactive queries and iterative algorithms.
 
 The Spark DataFrame abstraction is a tabular data object similar to R's native dataframe or Pythons pandas package, but stored in the cluster environment.
 
@@ -171,7 +171,7 @@ The following are the parameters passed to save method.
   * path – path of file, where it should be stored.
   * Header: "header" -> "true" tells spark to map column names of dataframe to first line of resulting output file.
 
-###Converting other data formats to CSV
+### Converting other data formats to CSV
 We can also convert any other data format like JSON, parquet, text to CSV using this library.
 
 In previous blog we had created json data. you can find it on github
@@ -182,7 +182,7 @@ lets just save it as CSV.
 ```
 scala> employeeDF.save("com.databricks.spark.csv", org.apache.spark.sql.SaveMode.ErrorIfExists, Map("path" -> "/home/poonam/employee.csv", "header"->"true"))
 ```
-###Conclusion:
+### Conclusion:
 In this post we gathered some insights on airports data using SparkSQL interactive queries
 and explored csv parsing library from Spark
 
